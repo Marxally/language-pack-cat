@@ -1,0 +1,13 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Hola aventurer! Estàs pensant a endinsar-te en la masmorra? És perillós!",
+			"Si jo fos tu, m'agradaria ser proveït de subministraments abans d'entrar en aquest lloc...",
+			"Afortunadament, el teu bon amic Joff, aquí present, ven tot el que puguis necessitar!"
+		],
+		[
+			"La fortuna afavoreix els preparats! Els subministraments són limitats."
+		]
+	]
+}

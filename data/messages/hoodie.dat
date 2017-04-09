@@ -1,0 +1,14 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Ahhhh... sembla que tenim un visitant. Sí.",
+			"No es veu com un viatger dels camins profunds... però no és un esclau de la mateixa manera que els altres, oi? Que curiós.",
+			"Fa molt de temps que observava els que són com vostè caven profundament aquestes terres, pertorbar el que hauria d'haver estat deixat oblidat. El seu treball continua per aquest camí.",
+			"De totes maneres, no és aquí per històries ... Potser li agradaria comerciar?"
+		],
+		[
+			"Ahhh... ha tornat. Potser li agradaria comerciar?"
+		]
+	]
+}

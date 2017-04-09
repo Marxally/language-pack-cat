@@ -1,0 +1,2342 @@
+{
+    "screens.SplashScreen.pressKeyToStart":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Prem qualsevol tecla per començar",
+        "comment":"Prompt shown once at the start of the game."
+    },
+    "screens.MainMenuScreen.playButton":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Jugar",
+        "comment":"Text for the play button. This will start a new game."
+    },
+    "screens.MainMenuScreen.eraseButton":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Borrar",
+        "comment":"Text for the erase button, which will delete the player's save game."
+    },
+    "screens.MainMenuScreen.optionsButton":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Opcions",
+        "comment":"Text for the options button, which will open the options menu."
+    },
+    "screens.MainMenuScreen.selectSaveSlot":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Selecciona ranura",
+        "comment":"Text prompt indicated the user should click a save slot."
+    },
+    "screens.MainMenuScreen.newGameSaveSlot":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Nova partida",
+        "comment":"Text shown on a save slot when the slot is empty."
+    },
+    "screens.MainMenuScreen.errorSaveSlot":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ERROR",
+        "comment":"Text shown on a save slot when the slot data cannot be loaded."
+    },
+    "screens.MainMenuScreen.infoSaveSlot":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"{0}  Nivell: {1}",
+        "comment":"Text shown on a save slot. {0} is the name of the dungeon level. {1} is the number of the dungeon level."
+    },
+    "screens.MainMenuScreen.finishedSaveSlot":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ACABAT",
+        "comment":"Text shown on a save slot after successfully beating the game."
+    },
+    "screens.MainMenuScreen.deadSaveSlot":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"MORT",
+        "comment":"Text shown on a save slot when the character is dead."
+    },
+    "screens.MainMenuScreen.creatingDungeon":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"CREANT MASMORRA",
+        "comment":"Text shown in the bottom right when starting a new game."
+    },
+    "screens.MainMenuScreen.loadingSaveSlot":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"CARREGANT",
+        "comment":"Text shown in the bottom right when loading a save game."
+    },
+    "screens.OptionsScreen.graphicsLow":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"BAIX",
+        "comment":"Text shown when graphics slider is all the way left."
+    },
+    "screens.OptionsScreen.graphicsMedium":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"MITG",
+        "comment":"Text show when the graphics slider is in the middle."
+    },
+    "screens.OptionsScreen.graphicsHigh":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ALT",
+        "comment":"Text shown when the graphics slider is all the way right."
+    },
+    "screens.OptionsScreen.graphicsUltra":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ULTRA",
+        "comment":"Text shown when the graphics slider is all the way right."
+    },
+    "screens.OptionsScreen.backButton":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Enrere",
+        "comment":"Text for back button, which goes to main menu."
+    },
+    "screens.OptionsScreen.inputButton":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Controls",
+        "comment":"Text for input button, which opens the input screen."
+    },
+    "screens.OptionsScreen.headerLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Opcions del joc",
+        "comment":"Text for the screen title."
+    },
+    "screens.OptionsScreen.uiSizeLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Mida de la interfície ",
+        "comment":"Label for UI size slider."
+    },
+    "screens.OptionsScreen.musicVolumeLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Volum de la música",
+        "comment":"Label for music volume slider."
+    },
+    "screens.OptionsScreen.soundVolumeLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Volum del so",
+        "comment":"Label for sound volume slider."
+    },
+    "screens.OptionsScreen.graphicsDetailLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Detall gràfic",
+        "comment":"Label for graphics detail slider."
+    },
+    "screens.OptionsScreen.particleDensityLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Densitat de partícules",
+        "comment":"Label for particle density slider."
+    },
+    "screens.OptionsScreen.fovLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Camp de visió",
+        "comment":"Label for field of view slider."
+    },
+    "screens.OptionsScreen.fullscreenLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pantalla completa",
+        "comment":"Label for fullscreen toggle."
+    },
+    "screens.OptionsInputScreen.backButton":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Enrere",
+        "comment":"Text for back button, which goes back to options screen."
+    },
+    "screens.OptionsInputScreen.keysButton":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Teclas",
+        "comment":"Text for the keys button, which opens the key binding screen."
+    },
+    "screens.OptionsInputScreen.gamepadButton":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Gamepad ",
+        "comment":"Text for the gamepad button, which opens the gamepad binding screen."
+    },
+    "screens.OptionsInputScreen.headerLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Opcions d'entrada",
+        "comment":"Text for the input options screen title."
+    },
+    "screens.OptionsScreen.lookXLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Sensibilitat X",
+        "comment":"Label for the mouse x-axis sensitivity slider."
+    },
+    "screens.OptionsScreen.lookYLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Sensibilitat Y",
+        "comment":"Label for the mouse y-axis sensitivity slider."
+    },
+    "screens.OptionsScreen.invertLookLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Invertir vista",
+        "comment":"Label for the invert look toggle."
+    },
+    "screens.OptionsScreen.mouseButton1Label":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Botó esquerre",
+        "comment":"Label for mouse button. Used for assigning to bindings."
+    },
+    "screens.OptionsScreen.mouseButton2Label":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Botó dret",
+        "comment":"Label for mouse button. Used for assigning to bindings."
+    },
+    "screens.OptionsScreen.mouseButton3Label":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Botó central",
+        "comment":"Label for mouse button. Used for assigning to bindings."
+    },
+    "screens.OptionsScreen.mouseScrollLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Roda del ratolí",
+        "comment":"Label for scroll wheel toggle."
+    },
+    "screens.OptionsKeysScreen.backButton":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Enrere",
+        "comment":"Text for back button, which goes back to the input options screen."
+    },
+    "screens.OptionsKeysScreen.pressKeyLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Prem tecla per: {0}",
+        "comment":"Message prompt shown when player is rebinding a key. {0} is the action. e.g. USE"
+    },
+    "screens.OptionsKeysScreen.pressEscToCancelLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Prem Esc per cancel·lar",
+        "comment":"Cancel prompt shown when player is rebinding a key."
+    },
+    "screens.LoadingScreen.loadingLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"CARREGANT",
+        "comment":"Label shown when game is loading."
+    },
+    "screens.LevelChangeScreen.levelChangeLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Canviant nivell",
+        "comment":"Label shown when game loading the next level."
+    },
+    "screens.GameOverScreen.win_text_0":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"AQUESTS YITHIDIANS SABIEN\nFER ORBES FANTÀSTICS.",
+        "comment":"One of many possibly text snippets shown on the win screen."
+    },
+    "screens.GameOverScreen.win_text_1":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"AMB EL SEU PODER\nPOTS MOLDEJAR EL MÓN.",
+        "comment":"One of many possibly text snippets shown on the win screen."
+    },
+    "screens.GameOverScreen.win_text_2":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ESTAVA AMAGAT\nPER ALGÚN MOTIU...",
+        "comment":"One of many possibly text snippets shown on the win screen."
+    },
+    "screens.GameOverScreen.win_text_3":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"EL ORBE MOSTRA EL QUE POT SER\nI EL QUE HA ESTAT.",
+        "comment":"One of many possibly text snippets shown on the win screen."
+    },
+    "screens.GameOverScreen.win_text_4":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"UNES VEUS T'AGUAITEN,\nUN NOU MÓN T'ESPERA.",
+        "comment":"One of many possibly text snippets shown on the win screen."
+    },
+    "screens.GameOverScreen.win_text_5":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"S'OBRE UNA PORTA ENTRE\nESPAIS DINTRE ESPAIS.",
+        "comment":"One of many possibly text snippets shown on the win screen."
+    },
+    "screens.GameOverScreen.win_text_6":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"LA MULTITUD CRIDA MENTRE\nLES REALITATS COL-LAPSEN.",
+        "comment":"One of many possibly text snippets shown on the win screen."
+    },
+    "screens.GameOverScreen.win_text_7":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"RECORDES AIXÒ,\nJA HA PASSAT ANTERIORMENT.",
+        "comment":"One of many possibly text snippets shown on the win screen."
+    },
+    "screens.GameOverScreen.delverEscapedText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"L'AVENTURER S'HA ESCAPAT!",
+        "comment":"Shown on the win screen."
+    },
+    "screens.GameOverScreen.recoveredOrbText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"HAS PORTAT DE TORNADA EL ORBE!",
+        "comment":"Shown on the win screen."
+    },
+    "screens.GameOverScreen.goodbyeDelverText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ADÉU AVENTURER",
+        "comment":"Shown on the game over screen."
+    },
+    "screens.GameOverScreen.betterLuckText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"MILLOR SORT EN LA TEVA PROPERA VIDA",
+        "comment":"Shown on the game over screen."
+    },
+    "screens.GameOverScreen.goldStatLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"OR OBTINGUT: ",
+        "comment":""
+    },
+    "screens.GameOverScreen.killsStatLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"MONSTRES ELIMINATS: ",
+        "comment":""
+    },
+    "screens.GameOverScreen.damageStatLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"MAL REBUT: ",
+        "comment":""
+    },
+    "screens.GameOverScreen.potionsStatLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"POCIONS UTILITZADES: ",
+        "comment":""
+    },
+    "screens.GameOverScreen.foodStatLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"MENJAR CONSUMIT: ",
+        "comment":""
+    },
+    "screens.GameOverScreen.scrollsStatLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"PERGAMINS USATS: ",
+        "comment":""
+    },
+    "screens.GameOverScreen.trapsStatLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"TRAMPES ACTIVADES: ",
+        "comment":""
+    },
+    "overlays.LevelUpOverlay.levelUpLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Puges de Nivell!",
+        "comment":""
+    },
+    "overlays.LevelUpOverlay.chooseYourFateLabel":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Tria el teu destí",
+        "comment":""
+    },
+    "overlays.LevelUpOverlay.ATTACK":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ATAC",
+        "comment":""
+    },
+    "overlays.LevelUpOverlay.SPEED":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"VELOCITAT",
+        "comment":""
+    },
+    "overlays.LevelUpOverlay.HEALTH":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"SALUT",
+        "comment":""
+    },
+    "overlays.LevelUpOverlay.MAGIC":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"MÀGIA",
+        "comment":""
+    },
+    "overlays.LevelUpOverlay.AGILITY":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"AGILITAT",
+        "comment":""
+    },
+    "overlays.LevelUpOverlay.DEFENSE":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"DEFENSA",
+        "comment":""
+    },
+    "overlays.MessageOverlay.nextButton":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"SEGÜENT",
+        "comment":"Text for next button on the message overlay. Advances to the next page."
+    },
+    "overlays.MessageOverlay.closeButton":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"TANCAR",
+        "comment":"Text for the close button on the message overlay."
+    },
+    "overlays.PauseOverlay.backButton":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Enrere",
+        "comment":"Text for the back button on the pause screen. Goes back to playing the game."
+    },
+    "overlays.PauseOverlay.quitButton":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Sortir",
+        "comment":"Text for the quit button on the pause screen. Returns to the main menu."
+    },
+    "overlays.PauseOverlay.pauseHeader":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pausa",
+        "comment":"Header text shown on the pause menu."
+    },
+    "overlays.ShopPause.titleText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ANEM A COMPRAR UNA MICA",
+        "comment":"Default shop title. Used for the mysterious merchant."
+    },
+    "overlays.ShopPause.descriptionText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"VERITAT?",
+        "comment":"Default shop description text. Used for the mysterious merchant."
+    },
+    "overlays.ShopPause.totalText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Total",
+        "comment":"Text shown on the shop table for the total gold being spent."
+    },
+    "overlays.ShopPause.yourGoldText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"El teu or",
+        "comment":"Text shown on the shop table for the players total gold."
+    },
+    "overlays.ShopPause.doneButton":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Fet",
+        "comment":"Text shown on the shop table for the players total gold."
+    },
+    "overlays.ShopPause.buyText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Comprar",
+        "comment":"Text shown in the shop table in place of an items price. This indicates the player has selected the item to purchase."
+    },
+    "entities.Door.stuckText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ATASCADA",
+        "comment":"Text shown when a door is stuck shut, and can be broken open."
+    },
+    "entities.Door.unlockedText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"DESBLOQUEJADA",
+        "comment":"Text shown when a door unlocked."
+    },
+    "entities.Door.lockedText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"BLOQUEJADA",
+        "comment":"Text shown when a door is locked and a key is needed to open it."
+    },
+    "entities.Door.opensElsewhereText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"S'OBRE DESDE\nUN ALTRE LLOC",
+        "comment":"Text shown when a door is stuck shut and must be opened through a trigger."
+    },
+    "entities.Door.openUseText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"OBRIR",
+        "comment":"Use text to open the door."
+    },
+    "entities.Door.closeUseText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"TANCAR",
+        "comment":"Use text to close the door."
+    },
+    "entities.Door.mobileUseText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"UTILITZAR: {0}",
+        "comment":"Text shown on mobile instead of key binding. {0} is the use text (OPEN/CLOSE)."
+    },
+    "entities.Item.itemConditionBroken":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"trencada",
+        "forms":{
+            "feminine singular":"trencada",
+            "feminine plural":"trencades",
+            "masculine singular":"trencat",
+            "masculine plural":"trencats"
+        },
+        "comment":""
+    },
+    "entities.Item.itemConditionWorn":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"danyada",
+        "forms":{
+            "feminine singular":"danyada",
+            "feminine plural":"danyades",
+            "masculine singular":"danyat",
+            "masculine plural":"danyats"
+        },
+        "comment":""
+    },
+    "entities.Item.itemConditionNormal":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"normal",
+        "forms":{
+            "feminine singular":"normal",
+            "feminine plural":"normals",
+            "masculine singular":"normal",
+            "masculine plural":"normals"
+        },
+        "comment":""
+    },
+    "entities.Item.itemConditionFine":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"superior",
+        "forms":{
+            "feminine singular":"superior",
+            "feminine plural":"superiors",
+            "masculine singular":"superior",
+            "masculine plural":"superiors"
+        },
+        "comment":""
+    },
+    "entities.Item.itemConditionExcellent":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"excel-lent",
+        "forms":{
+            "feminine singular":"excel-lent",
+            "feminine plural":"excel-lents",
+            "masculine singular":"excel-lent",
+            "masculine plural":"excel-lents"
+        },
+        "comment":""
+    },
+    "entities.Item.mobileUseMessageText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"UTILITZAR: AGAFAR {0}",
+        "comment":"Use message shown on mobile in place of key binding. {0} is the item name."
+    },
+    "entities.Item.noRoomText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"NO HI HA ESPAI",
+        "comment":"Text show when player attempts to pick up an item when inventory is full."
+    },
+    "entities.Item.itemNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"{2} {0} {3} {1}",
+        "comment":"Text shown for items. E.g. King's Excellent Sword of the Rabbit. {0} is the prefix enchantment. {1} is the item condition. {2} is the item name. {3} is the postfix enchantment. Note any extra white space will be stripped."
+    },
+    "entities.Item.unidentifiedIndicatorText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"???",
+        "comment":"Text shown for unidentified items."
+    },
+    "entities.Item.modificationInfoSpeedText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Velocitat",
+        "comment":""
+    },
+    "entities.Item.modificationInfoHealthText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Salut",
+        "comment":""
+    },
+    "entities.Item.modificationInfoAgilityText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Agilitat",
+        "comment":""
+    },
+    "entities.Item.modificationInfoDefenseText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Defensa",
+        "comment":""
+    },
+    "entities.Item.modificationInfoMagicText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Màgia",
+        "comment":""
+    },
+    "entities.Item.modificationInfoAttackText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Atac",
+        "comment":""
+    },
+    "entities.Player.mobileUseText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"UTILITZAR",
+        "comment":"Text shown on a mobile device in place of a key binding."
+    },
+    "entities.Player.getItemText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"{0}: {1}",
+        "comment":"Text shown when player is looking at an item. {0} is the key binding. {1} is the name of the item."
+    },
+    "entities.Player.useText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"{0}: {1}",
+        "comment":"Text shown when player is looking at a usable object. {0} is the key binding. {1} is the use verb of the object."
+    },
+    "entities.Player.exitDungeonText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"{0}: SALIR DE LA MAZMORRA",
+        "comment":"Text shown when player is looking at the dungeon exit. {0} is the key binding."
+    },
+    "entities.Player.weaponAttackText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"{0} - {1}",
+        "comment":"Text shown for the damage range of the player's wielded weapon. {0} is the minimum damage. {1} is the maximum damage."
+    },
+    "entities.Stairs.mobileUseText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"UTILITZA {0}",
+        "comment":"Text shown on a mobile device. {0} is the direction (Up/Down)."
+    },
+    "entities.Trigger.defaultUseVerb":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"UTILITZAR",
+        "comment":""
+    },
+    "entities.Trigger.mobileUseText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"UTILITZAR",
+        "comment":"Text shown on a mobile device instead of a key binding."
+    },
+    "entities.Trigger.useText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"{0}: {1}",
+        "comment":"Text shown when a player is looking at a trigger. {0} is the key binding. {1} is the use verb."
+    },
+    "game.Game.errorLoadingDataText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ERROR CARREGANT {0}",
+        "comment":"Text shown when a resource fails to load. {0} is the name of the file."
+    },
+    "game.Game.startingPantsNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pantalons",
+        "form":"masculine plural",
+        "comment":"The name of the pants the player starts the game with."
+    },
+    "game.Game.cannotLeaveText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"NO POTS MARXAR SENSE EL ORBE,\nLA PORTA ESTÀ TANCADA.",
+        "comment":"Text shown when the player attempts to leave the dungeon without the orb."
+    },
+    "game.Game.loadErrorText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ERROR AL CARREGAR",
+        "comment":"Text shown when something unexpected has happened during level load."
+    },
+    "game.Game.levelNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"NIVELL {0}",
+        "comment":"Text shown for the floor name. This is a fallback if no name is provided."
+    },
+    "gfx.GlRenderer.AttackText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"DANY: {0}",
+        "comment":"Text shown on the inventory screen for player's attack values."
+    },
+    "gfx.GlRenderer.ArmorClassText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ARMADURA: {0}",
+        "comment":"Text shown on the inventory screen for player's defense values."
+    },
+    "gfx.GlRenderer.LevelText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Nivell: {0}",
+        "comment":"Text shown on the inventory screen for player's level."
+    },
+    "gfx.GlRenderer.ExperienceText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"EXP: {0}/{1}",
+        "comment":"Text shown on the inventory screen for player's experience. {0} is the current amount of experience. {1} is the amount needed to acquire the next level."
+    },
+    "gfx.GlRenderer.GoldText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Or: {0}",
+        "comment":"Text shown on the inventory screen for player's gold."
+    },
+    "items.Bow.defaultName":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Arc",
+        "comment":""
+    },
+    "items.Bow.damageRangeText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"{0} - {1} {2}",
+        "comment":"{0} is the minimum damage. {1} is the maximum damage. {2} is the damage type."
+    },
+    "items.Bow.elementalDamageText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"+{0} {1}",
+        "comment":"{0} is the amount of damage. {1} is the damage type."
+    },
+    "items.Bow.rangeText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Abast {0}",
+        "comment":"{0} length of the range in world units."
+    },
+    "items.Elixer.defaultNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Habilitat embotellada",
+        "comment":""
+    },
+    "items.Food.defaultNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Menjar",
+        "comment":""
+    },
+    "items.Food.eatFoodText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Mmmh!",
+        "comment":""
+    },
+    "items.Food.drinkBoozeText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Et sents càlid",
+        "comment":""
+    },
+    "items.Food.infoText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Comestible",
+        "comment":""
+    },
+    "items.Gun.defaultNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Arma",
+        "comment":""
+    },
+    "items.Gun.infoText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"{0} munició",
+        "comment":""
+    },
+    "items.ItemStack.defaultNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Fletxa",
+        "comment":""
+    },
+    "items.ItemStack.infoText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"x{0}",
+        "comment":"Text shown for item's information text. {0} is the item information of the stack. {1} is the count of the stack."
+    },
+    "items.Missile.defaultNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Fletxa",
+        "comment":""
+    },
+    "items.Missile.noRoomText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"NO HI HA ESPAI",
+        "comment":"Text shown when attempting to pick up a missile when the inventory is full."
+    },
+    "items.Note.ellipsisText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"...",
+        "comment":"Shown when a note has no text."
+    },
+    "items.Potion.defaultNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Poció",
+        "comment":"Default name for a potion if none is defined."
+    },
+    "items.Potion.healDisplayText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Et sents millor",
+        "comment":"Text shown when potion is drank."
+    },
+    "items.Potion.poisonDisplayText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Crema!",
+        "comment":"Text shown when potion is drank."
+    },
+    "items.Potion.maxHealDisplayText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Et sents restaurat",
+        "comment":"Text shown when potion is drank. Health is completely restored."
+    },
+    "items.Potion.restoreDisplayText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Glup!",
+        "comment":"Text shown when potion is drank. Used for cola."
+    },
+    "items.Potion.magicShieldDisplayText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Et sents arcà",
+        "comment":"Text shown when potion is drank."
+    },
+    "items.Potion.magicShieldStatusEffectNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Escut màgic",
+        "comment":"Text shown in the status display for the effect."
+    },
+    "items.Potion.ironSkinDisplayText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Et sents entumit",
+        "comment":"Text shown when potion is drank."
+    },
+    "items.Potion.ironSkinStatusEffectNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pell de ferro",
+        "comment":"Text shown in the status display for the effect."
+    },
+    "items.Potion.paralyzeDisplayText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Et sents pesat",
+        "comment":"Text shown when potion is drank."
+    },
+    "items.Potion.discoverDisplayText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Deu ser {0}",
+        "comment":"Text shown when the player identifies the potion's effect. {0} is the status effect name."
+    },
+    "items.Potion.unidentifiedInfoText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"???",
+        "comment":"Text shown for potion name if not identified."
+    },
+    "items.Potion.healingNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Curació",
+        "comment":""
+    },
+    "items.Potion.poisonNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Verí",
+        "comment":""
+    },
+    "items.Potion.restorationNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Restauració",
+        "comment":""
+    },
+    "items.Potion.colaNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Cola",
+        "comment":""
+    },
+    "items.Potion.magicShieldNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Resistència Màgica",
+        "comment":""
+    },
+    "items.Potion.ironSkinNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pell de ferro",
+        "comment":""
+    },
+    "items.Potion.paralyzeNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Paralitzat",
+        "comment":""
+    },
+    "items.Potion.unknownNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"???",
+        "comment":"Name text for a potion of unknown type. This only happens when something goes wrong."
+    },
+    "items.QuestItem.defaultNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ORBE YITHIDIÀ",
+        "comment":""
+    },
+    "items.QuestItem.noRoomText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"NO HI HA ESPAI",
+        "comment":"Text shown when attempting to pick up the orb and the inventory is full."
+    },
+    "items.QuestItem.gotItemText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"HAS ACONSEGUIT {0}",
+        "comment":"Text shown when the quest item is acquired for the first time. {0} is the name of the item."
+    },
+    "items.QuestItem.escapeMessageText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"HAS ACONSEGUIT EL ORBE YITHIDIÀ\nTORNA A LA SUPERFÍCIE\nI ESCAPA!",
+        "comment":"Shown after the gotItemText. Will start a new line on \n."
+    },
+    "items.Scroll.nothingHappensText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"NO PASSA RES",
+        "comment":"Text shown when something has gone wrong with the scroll."
+    },
+    "items.Wand.defaultNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Vareta",
+        "comment":""
+    },
+    "items.Wand.infoText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"{0} càrregues",
+        "comment":""
+    },
+    "items.Weapon.damageType.PHYSICAL":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"dany",
+        "comment":""
+    },
+    "items.Weapon.damageType.MAGIC":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"dany màgic",
+        "comment":""
+    },
+    "items.Weapon.damageType.FIRE":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"dany de foc",
+        "comment":""
+    },
+    "items.Weapon.damageType.ICE":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"dany de fred",
+        "comment":""
+    },
+    "items.Weapon.damageType.LIGHTNING":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"dany elèctric",
+        "comment":""
+    },
+    "items.Weapon.damageType.POISON":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"dany de verí",
+        "comment":""
+    },
+    "items.Weapon.damageType.HEALING":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"sanació",
+        "comment":""
+    },
+    "items.Weapon.damageType.PARALYZE":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"dany de paràlisi",
+        "comment":""
+    },
+    "items.Weapon.damageRangeText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"{0} - {1} {2}",
+        "comment":"{0} is the minimum damage. {1} is the maximum damage. {2} is the damage type."
+    },
+    "items.Weapon.elementalDamageText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"+{0} {1}",
+        "comment":"{0} is the amount of damage. {1} is the damage type."
+    },
+    "items.Weapon.twoHandedText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"A dues mans",
+        "comment":"Text shown on item information if it is wielded with two hands."
+    },
+    "statuseffects.BurningEffect.defaultNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Cremant",
+        "comment":""
+    },
+    "statuseffects.ParalyzeEffect.defaultNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Paralitzat",
+        "comment":""
+    },
+    "statuseffects.PoisonEffect.defaultNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Verí",
+        "comment":""
+    },
+    "statuseffects.RestoreHealthEffect.defaultNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Restaurar salut",
+        "comment":""
+    },
+    "statuseffects.SlowEffect.defaultNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Lent",
+        "comment":""
+    },
+    "statuseffects.SpeedEffect.defaultNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Ràpid",
+        "comment":""
+    },
+    "statuseffects.StatusEffect.defaultNameText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"???",
+        "comment":"Text shown when something is wrong with the status effect."
+    },
+    "tiles.ExitTile.cannotLeaveText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"NO POTS MARXAR SENSE EL ORBE,\nLA PUERTA ESTÀ TANCADA.",
+        "comment":"Text shown when the player attempts to leave the dungeon without the orb."
+    },
+    "triggers.ButtonModel.useVerbText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"TIRAR",
+        "comment":"Text show to indicate the action that will be taken."
+    },
+    "triggers.ButtonModel.useMobileText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"UTILITZAR",
+        "comment":"Text shown on a mobile device instead of a key binding."
+    },
+    "triggers.ButtonModel.useText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"{0}: {1}",
+        "comment":"{0} is the key binding. {1} is the use verb."
+    },
+    "triggers.Trigger.useVerbs.ENTER DUNGEON":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ENTRAR A MASMORRA",
+        "comment":""
+    },
+    "triggers.Trigger.useVerbs.SHOP":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"COMERCIAR",
+        "comment":""
+    },
+    "triggers.Trigger.useVerbs.TALK":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"PARLAR",
+        "comment":""
+    },
+    "triggers.Trigger.useVerbs.USE":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"UTILITZAR",
+        "comment":""
+    },
+    "triggers.TriggeredShop.titleText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"COMERCIANT",
+        "comment":""
+    },
+    "triggers.TriggeredShop.descriptionText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"COMPRA QUALSEVOL COSA",
+        "comment":""
+    },
+    "ui.Hud.noRoomText":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"NO HI HA ESPAI",
+        "comment":"Text show when player attempts to pick up an item when inventory is full."
+    },
+    "USE":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"UTILITZAR",
+        "comment":"Label for key bind action."
+    },
+    "ATTACK":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ATACAR",
+        "comment":"Label for key bind action."
+    },
+    "DROP":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"LLENÇAR",
+        "comment":"Label for key bind action."
+    },
+    "INVENTORY":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"INVENTARI",
+        "comment":"Label for key bind action."
+    },
+    "ITEM NEXT":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"SEGÜENT OBJECTE",
+        "comment":"Label for key bind action."
+    },
+    "ITEM PREVIOUS":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"OBJECTE ANTERIOR",
+        "comment":"Label for key bind action."
+    },
+    "MAP":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"MAPA",
+        "comment":"Label for key bind action."
+    },
+    "FORWARD":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ENDAVANT",
+        "comment":"Label for key bind action."
+    },
+    "BACKWARD":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ENRERE",
+        "comment":"Label for key bind action."
+    },
+    "STRAFE LEFT":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ESQUERRA",
+        "comment":"Label for key bind action."
+    },
+    "STRAFE RIGHT":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"DRETA",
+        "comment":"Label for key bind action."
+    },
+    "TURN LEFT":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"GIRAR ESQUERRA",
+        "comment":"Label for key bind action."
+    },
+    "TURN RIGHT":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"GIRAR DRETA",
+        "comment":"Label for key bind action."
+    },
+    "LOOK UP":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"MIRAR DALT",
+        "comment":"Label for key bind action."
+    },
+    "LOOK DOWN":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"MIRAR ABAIX",
+        "comment":"Label for key bind action."
+    },
+    "Lucky Dagger":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"La daga de la sort",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "The Forgotten":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"El oblidat",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Dusk":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"L'ocàs",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Dawn":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"L'alba",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Iron dagger":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Daga de ferro",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Iron shortsword":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Espasa curta de ferro",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Iron sword":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Espasa de ferro",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Iron mace":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Maça de ferro",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Iron spiked mace":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Estel del matí",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Iron hammer":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Martell de ferro",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Steel dagger":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Daga d'acer",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Steel shortsword":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Espasa curta d'acer",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Steel sword":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Espasa d'acer",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Steel mace":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Maça d'acer",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Steel spiked mace":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Maça de pinxos",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Steel hammer":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Martell de guerra",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Engraved dagger":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Daga gravada",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Engraved shortsword":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Espasa curta gravada",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Engraved sword":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Espasa gravada",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Gilded mace":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Maça daurada",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Gilded spiked mace":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Estel del matí daurat",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Gilded hammer":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Martell daurat",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Jeweled dagger":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Daga enjoiada",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Jeweled shortsword":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Espasa curta enjoiada",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Jeweled sword":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Espasa enjoiada",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Shortbow":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Arc curt",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "ARROW":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Fletxa",
+        "comment":""
+    },
+    "Composite Bow":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Arc compost",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Bow":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Arc",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Hunter's Bow":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Arc de caçador",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Longbow":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Arc llarg",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Leather armor":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Armadura de cuir",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Leather pants":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pantalons de cuir",
+        "form":"masculine plural",
+        "comment":""
+    },
+    "Skullcap":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Barret",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Buckler":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Rodella",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Quilted leather armor":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Armadura de cuir encoixinada",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Quilted leather pants":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pantalons de cuir encoixinats",
+        "form":"masculine plural",
+        "comment":""
+    },
+    "Ring of Protection":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Anell de protecció",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Amulet of Protection":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Amulet de protecció",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Amulet of Health":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Amulet de salut",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Chainmail":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Cota de malla",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Chainmail greaves":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pantalons de malla",
+        "form":"masculine plural",
+        "comment":""
+    },
+    "Round Shield":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Escut rodó",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Amulet of Speed":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Amulet de velocitat",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Ring of Health":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Anell de salut",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Steel mail":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Armadura de malla",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Steel greaves":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Mallas d'acer",
+        "form":"feminine plural",
+        "comment":""
+    },
+    "Steel helmet":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Elm d'acer",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Ring of Speed":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Anell de velocitat",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Platemail":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Cuirassa",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Platemail greaves":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Gamberes",
+        "form":"feminine plural",
+        "comment":""
+    },
+    "Heater Shield":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Escut",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Scalemail":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Armadura d'escates",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Scalemail greaves":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Gamberes d'escates",
+        "form":"feminine plural",
+        "comment":""
+    },
+    "Ring of Greater Protection":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Anell de protecció sublim",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Amulet of Greater Protection":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Amulet de protecció sublim",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Amulet of the Wolf":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Amulet del llop",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Jeweled platemail":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Cuirassa enjoiada",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Jeweled greaves":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Gamberes enjoiades",
+        "form":"feminine plural",
+        "comment":""
+    },
+    "Jeweled helmet":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Elm enjoiat",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Tower Shield":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Escut Torre",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Ring of the Wolf":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Anell del llop",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Ring of Greater Health":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Anell de salut sublim",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Amulet of Greater Health":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Amulet de salut sublim",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Lesser missile wand":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Vareta vulgar de míssils",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Missile wand":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Vareta de míssils",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Greater missile wand":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Vareta sublim de míssils",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Lesser fire wand":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Vareta vulgar de foc",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Fire wand":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Vareta de foc",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Greater fire wand":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Vareta sublim de foc",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Lesser ice wand":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Vareta vulgar de gel",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Ice wand":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Vareta de gel",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Greater ice wand":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Vareta sublim de gel",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Storm wand":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Vareta de tempesta",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Paralyze wand":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Vareta de paràlisi",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Red potion":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Poció vermella",
+        "comment":""
+    },
+    "Blue potion":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Poció blava",
+        "comment":""
+    },
+    "Green potion":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Poció verda",
+        "comment":""
+    },
+    "Purple potion":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Poció púrpura",
+        "comment":""
+    },
+    "Dark potion":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Poció obscura",
+        "comment":""
+    },
+    "Gold potion":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Poció daurada",
+        "comment":""
+    },
+    "Bright potion":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Poció brillant",
+        "comment":""
+    },
+    "Scroll of Teleport":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pergamí de teletransport",
+        "comment":""
+    },
+    "Scroll of Flame":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pergamí de flames",
+        "comment":""
+    },
+    "Scroll of Burning":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pergamí de combustió",
+        "comment":""
+    },
+    "scroll of Blizzard":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pergamí de ventisca",
+        "comment":""
+    },
+    "scroll of Freezing":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pergamí de congelació",
+        "comment":""
+    },
+    "Scroll of Health":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pergamí de salut",
+        "comment":""
+    },
+    "Scroll of Greater Health":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pergamí de salut sublim",
+        "comment":""
+    },
+    "Scroll of Resist Magic":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pergamí de resistència màgica",
+        "comment":""
+    },
+    "Scroll of Haste":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pergamí de prestesa",
+        "comment":""
+    },
+    "Scroll of Enchant Weapon":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pergamí d'encantar arma",
+        "comment":""
+    },
+    "Scroll of Enchant Armor":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pergamí d'encantar armadura",
+        "comment":""
+    },
+    "Scroll of Identify":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pergamí d'identificació",
+        "comment":""
+    },
+    "Scroll of Discern Reality":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pergamí de discernir la realitat",
+        "comment":""
+    },
+    "Skull":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Crani",
+        "comment":""
+    },
+    "Bones":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Ossos",
+        "comment":""
+    },
+    "Tankard":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Gerra",
+        "comment":""
+    },
+    "Book":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Llibre",
+        "comment":""
+    },
+    "Bowl":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Bol",
+        "comment":""
+    },
+    "CANDLE":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Espelma",
+        "comment":""
+    },
+    "Lantern":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Fanal",
+        "comment":""
+    },
+    "Bread":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pà",
+        "comment":""
+    },
+    "Apple":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Poma",
+        "comment":""
+    },
+    "Cheese":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Formatge",
+        "comment":""
+    },
+    "Steak":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Filet",
+        "comment":""
+    },
+    "Meat":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Carn",
+        "comment":""
+    },
+    "Ale":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Cervessa",
+        "comment":""
+    },
+    "Key":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Clau",
+        "comment":""
+    },
+    "of Haste":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"de prestesa",
+        "comment":""
+    },
+    "of Speed":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"de velocitat",
+        "comment":""
+    },
+    "of Heft":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"robusta",
+        "forms":{
+            "feminine singular":"robusta",
+            "feminine plural":"robustes",
+            "masculine singular":"robust",
+            "masculine plural":"robustos"
+        },
+        "comment":""
+    },
+    "of Force":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"de força",
+        "comment":""
+    },
+    "of Biting":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"de mossegada",
+        "comment":""
+    },
+    "of Fire":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"del foc",
+        "comment":""
+    },
+    "of Burning":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"de combustió",
+        "comment":""
+    },
+    "of Ice":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"de gel",
+        "comment":""
+    },
+    "of Blizzard":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"de ventisca",
+        "comment":""
+    },
+    "of Paralyze":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"de paràlisi",
+        "comment":""
+    },
+    "of The Arcane":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"del arcà",
+        "comment":""
+    },
+    "of Storm":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"de tormenta",
+        "comment":""
+    },
+    "of the Tempest":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"de tempesta",
+        "comment":""
+    },
+    "of the Worm":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"del cuc",
+        "comment":""
+    },
+    "Quick":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"ràpida",
+        "forms":{
+            "feminine singular":"ràpida",
+            "feminine plural":"ràpides",
+            "masculine singular":"ràpid",
+            "masculine plural":"ràpids"
+        },
+        "comment":""
+    },
+    "Balanced":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"equilibrada",
+        "forms":{
+            "feminine singular":"equilibrada",
+            "feminine plural":"equilibrades",
+            "masculine singular":"equilibrat",
+            "masculine plural":"equilibrats"
+        },
+        "comment":""
+    },
+    "Glowing":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"brillant",
+        "forms":{
+            "feminine singular":"brillant",
+            "feminine plural":"brillants",
+            "masculine singular":"brillant",
+            "masculine plural":"brillants"
+        },
+        "comment":""
+    },
+    "Protected":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"protectora",
+        "forms":{
+            "feminine singular":"protectora",
+            "feminine plural":"protectores",
+            "masculine singular":"protector",
+            "masculine plural":"protectors"
+        },
+        "comment":""
+    },
+    "Blessed":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"beneïda",
+        "forms":{
+            "feminine singular":"beneïda",
+            "feminine plural":"beneïdes",
+            "masculine singular":"beneït",
+            "masculine plural":"beneïts"
+        },
+        "comment":""
+    },
+    "Unholy":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"impia",
+        "forms":{
+            "feminine singular":"impia",
+            "feminine plural":"impies",
+            "masculine singular":"impiu",
+            "masculine plural":"impius"
+        },
+        "comment":""
+    },
+    "Cursed":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"maleïda",
+        "forms":{
+            "feminine singular":"maleïda",
+            "feminine plural":"maleïdes",
+            "masculine singular":"maleït",
+            "masculine plural":"maleïts"
+        },
+        "comment":""
+    },
+    "Light":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"lleugera",
+        "forms":{
+            "feminine singular":"lleugera",
+            "feminine plural":"lleugeres",
+            "masculine singular":"lleuger",
+            "masculine plural":"lleugers"
+        },
+        "comment":""
+    },
+    "Nimble":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"àgil",
+        "forms":{
+            "feminine singular":"àgil",
+            "feminine plural":"àgils",
+            "masculine singular":"àgil",
+            "masculine plural":"àgils"
+        },
+        "comment":""
+    },
+    "Fleet":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"veloç",
+        "forms":{
+            "feminine singular":"veloç",
+            "feminine plural":"veloçes",
+            "masculine singular":"veloç",
+            "masculine plural":"veloços"
+        },
+        "comment":""
+    },
+    "Heavy":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"pesada",
+        "forms":{
+            "feminine singular":"pesada",
+            "feminine plural":"pesades",
+            "masculine singular":"pesat",
+            "masculine plural":"pesats"
+        },
+        "comment":""
+    },
+    "Unwieldly":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"molt pesada",
+        "forms":{
+            "feminine singular":"molt pesada",
+            "feminine plural":"molt pesades",
+            "masculine singular":"molt pesat",
+            "masculine plural":"molt pesats"
+        },
+        "comment":""
+    },
+    "Coward's":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"covard",
+        "forms":{
+            "feminine singular":"covarda",
+            "feminine plural":"covardes",
+            "masculine singular":"covard",
+            "masculine plural":"covards"
+        },
+        "comment":""
+    },
+    "Drunk's":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"borratxa",
+        "forms":{
+            "feminine singular":"borratxa",
+            "feminine plural":"borratxes",
+            "masculine singular":"borratxo",
+            "masculine plural":"borratxos"
+        },
+        "comment":""
+    },
+    "Demon's":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"demoníaca",
+        "forms":{
+            "feminine singular":"demoníaca",
+            "feminine plural":"demoníaques",
+            "masculine singular":"demoníac",
+            "masculine plural":"demoníacs"
+        },
+        "comment":""
+    },
+    "Fighter's":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"lluitadora",
+        "forms":{
+            "feminine singular":"lluitadora",
+            "feminine plural":"lluitadores",
+            "masculine singular":"lluitador",
+            "masculine plural":"lluitadors"
+        },
+        "comment":""
+    },
+    "Brawler's":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"combatent",
+        "forms":{
+            "feminine singular":"combatent",
+            "feminine plural":"combatents",
+            "masculine singular":"combatent",
+            "masculine plural":"combatents"
+        },
+        "comment":""
+    },
+    "Knight's":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"cavalleresca",
+        "forms":{
+            "feminine singular":"cavalleresca",
+            "feminine plural":"cavalleresques",
+            "masculine singular":"cavalleresc",
+            "masculine plural":"cavallerescos"
+        },
+        "comment":""
+    },
+    "King's":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"real",
+        "forms":{
+            "feminine singular":"real",
+            "feminine plural":"reals",
+            "masculine singular":"real",
+            "masculine plural":"reals"
+        },
+        "comment":""
+    },
+    "of the Sloth":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"del mandrós",
+        "comment":""
+    },
+    "of the Turtle":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"de la tortuga",
+        "comment":""
+    },
+    "of the Rabbit":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"del conill",
+        "comment":""
+    },
+    "of the Snake":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"de la serp",
+        "comment":""
+    },
+    "of the Eagle":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"de l'àguila",
+        "comment":""
+    },
+    "of Skill":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"d'habilitat",
+        "comment":""
+    },
+    "of Precision":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"de precisió",
+        "comment":""
+    },
+    "of Intellect":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"d'intel·lecte",
+        "comment":""
+    },
+    "of the Mind":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"de la ment",
+        "comment":""
+    },
+    "of Magic":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"de màgia",
+        "comment":""
+    },
+    "Trite":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"banal",
+        "forms":{
+            "feminine singular":"banal",
+            "feminine plural":"banals",
+            "masculine singular":"banal",
+            "masculine plural":"banals"
+        },
+        "comment":""
+    },
+    "Insipid":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"insípida",
+        "forms":{
+            "feminine singular":"insípida",
+            "feminine plural":"insípides",
+            "masculine singular":"insípid",
+            "masculine plural":"insípids"
+        },
+        "comment":""
+    },
+    "Vapid":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"patética",
+        "forms":{
+            "feminine singular":"patética",
+            "feminine plural":"patétiques",
+            "masculine singular":"patétic",
+            "masculine plural":"patétics"
+        },
+        "comment":""
+    },
+    "Mage's":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"màgica",
+        "forms":{
+            "feminine singular":"màgica",
+            "feminine plural":"màgiques",
+            "masculine singular":"màgic",
+            "masculine plural":"màgics"
+        },
+        "comment":""
+    },
+    "Wizard's":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"conjuradora",
+        "forms":{
+            "feminine singular":"conjuradora",
+            "feminine plural":"conjuradores",
+            "masculine singular":"conjurador",
+            "masculine plural":"conjuradors"
+        },
+        "comment":""
+    },
+    "Sorcerer's":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"bruixota",
+        "forms":{
+            "feminine singular":"bruixota",
+            "feminine plural":"bruixotes",
+            "masculine singular":"bruixot",
+            "masculine plural":"bruixots"
+        },
+        "comment":""
+    },
+    "Enchanted":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"encantada",
+        "forms":{
+            "feminine singular":"encantada",
+            "feminine plural":"encantades",
+            "masculine singular":"encantat",
+            "masculine plural":"encantats"
+        },
+        "comment":""
+    },
+    "Old Academy Sword":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Vella espasa d'acadèmia",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Yewen Staff":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Vara de teix",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Wizard Hat":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Barret de bruixot",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Wizard Robe":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Túnica de bruixot",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Wizard Boots":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Botes de bruixot",
+        "form":"feminine plural",
+        "comment":""
+    },
+    "Old Iron Ring":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Vell anell de ferro",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Grimoire":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Grimori",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Hedgewood's":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"de Hedgewood",
+        "comment":""
+    },
+    "Magic":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"màgic",
+        "forms":{
+            "feminine singular":"mágica",
+            "feminine plural":"mágicas",
+            "masculine singular":"mágico",
+            "masculine plural":"mágicos"
+        },
+        "comment":""
+    },
+    "Iron axe":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Destral de ferro",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Iron pike":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pica de ferro",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Iron greatsword":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Espadón de ferro",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Iron greataxe":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Gran destral de ferro",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Iron halberd":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Alabarda de ferro",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Steel axe":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Destral d'acer",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Steel pike":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pica d'acer",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Steel greatsword":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Espadón d'acer",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Steel greataxe":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Gran destral d'acer",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Steel halberd":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Alabarda d'acer",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Engraved axe":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Destral gravada",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Engraved pike":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pica gravada",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Engraved greatsword":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Espadón gravat",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Engraved greataxe":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Gran destral gravada",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Engraved halberd":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Alabarda grabada",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Jeweled axe":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Destral enjoiada",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Jeweled spiked mace":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Maça d'armes enjoiada",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Jeweled hammer":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Martell enjoiat",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Jeweled pike":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pica enjoyada",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Jeweled greatsword":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Espadón enjoiat",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Jeweled greataxe":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Gran destral enjoiada",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Jeweled voulge":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Agulla enjoiada",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Kite Shield":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Escut de llàgrima",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Gilded axe":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Destral daurada",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Gilded pike":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Pica daurada",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Gilded sword":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Espasa daurada",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Gilded greatsword":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Espadón daurat",
+        "form":"masculine singular",
+        "comment":""
+    },
+    "Gilded greataxe":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Gran destral daurada",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Gilded glaive":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Agulla daurada",
+        "form":"feminine singular",
+        "comment":""
+    },
+    "Gilded Shield":{
+        "class":"com.interrupt.dungeoneer.game.LocalizedString",
+        "localizedName":"Escut daurat",
+        "form":"masculine singular",
+        "comment":""
+    }
+}

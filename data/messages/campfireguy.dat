@@ -1,0 +1,24 @@
+{
+	"repeats": false,
+	"messages": [
+		[
+			"Probablement no hauries de quedar-te massa temps. Coses estranyes succeeixen al voltant d'aquestes ruïnes.",
+			"Tots aquells cercadors de tresors s'han endinsat a l'interior, però cap ha tornat.",
+			"Van escoltar rumors sobre el que se suposa que hi ha allà baix. No em podrien pagar prou per entrar-hi."
+		],
+		[
+			"Vaig ser enviat aquí pel gremi per esbrinar el que està passant, però de moment tinc encara més preguntes.",
+			"Que els hi passarà aquells que entrin a la masmorra?",
+			"Per què la gent se sent atreguda cap allà?",
+			"Per què els meus somnis són tan estranys aquí? A dures penes he pogut dormir."
+		],
+		[
+			"Aniràs cap allà?",
+			"No t'ho impediré, però almenys t'he avisat."
+		],
+		[
+			"Sembles familiar...",
+			"Has estat aquí abans?"
+		]
+	]
+}

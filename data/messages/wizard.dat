@@ -1,0 +1,14 @@
+{
+	repeats: false,
+	messages: [
+		[
+			"Hola viatjant, pots sentir l'energia arcana aquí?",
+			"Aquestes ruïnes han d'amagar un gran poder, puc sentir com la terra vibra amb màgies antigues...",
+			"Jo? El bosc d'aquí és un bon lloc per als usuaris de la màgia, com jo, per encantar pergamins i artefactes.",
+			"Tinc alguns pergamins preparats dels quals em podria desprendre, per un preu just."
+		],
+		[
+			"Tinc alguns pergamins de més dels que em podria desprendre, per un preu just."
+		]
+	]
+}
